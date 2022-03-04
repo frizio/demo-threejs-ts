@@ -23,10 +23,16 @@ npx tsc --init
 ```
 
 ```json
-  ...
-  "scripts": {
-    "watch": "tsc -w src/index.ts",
-    "build": "tsc -p ."
-  },
-  ...
+...
+"scripts": {
+  "watch": "tsc -w src/index.ts",
+  "build": "tsc -p ."
+},
+...
+```
+
+## Install Three.js -> 0.138.3 [ al 04 / Marzo / 2022 ]
+
+```bash
+npm i -D three @types/three
 ```
