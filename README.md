@@ -32,3 +32,14 @@ npm i -g http-server
 npm run build
 http-server ./dist/client
 ```
+
+## Deploy on GitHub pages
+
+```bash
+npm i -g gh-pages
+gh-pages -d dist/client
+or
+npm run deploy-ghp
+```
+
+### [Link](https://frizio.github.io/demo-threejs-ts/index.html)
