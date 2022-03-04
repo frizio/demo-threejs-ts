@@ -13,24 +13,6 @@ npx tsc -v
 npx tsc --init
 ```
 
-## Configure Typescript
-
-```json
-{ 
-  "rootDir": "./src",
-  "outDir": "./dist"
-}
-```
-
-```json
-...
-"scripts": {
-  "watch": "tsc -w src/index.ts",
-  "build": "tsc -p ."
-},
-...
-```
-
 ## Install Three.js -> 0.138.3 [ al 04 / Marzo / 2022 ]
 
 ```bash
