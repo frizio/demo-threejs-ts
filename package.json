@@ -1,0 +1,16 @@
+{
+  "name": "demo-threejs-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w src/index.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
