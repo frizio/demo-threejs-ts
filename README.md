@@ -18,3 +18,17 @@ npx tsc --init
 ```bash
 npm i -D three @types/three
 ```
+
+## Run in development mode
+
+```bash
+npm run dev
+```
+
+## Run in production mode
+
+```bash
+npm i -g http-server
+npm run build
+http-server ./dist/client
+```
