@@ -33,7 +33,7 @@ npm run build
 http-server ./dist/client
 ```
 
-## Deploy on GitHub pages
+## Deploy on GitHub pages ([link](https://frizio.github.io/demo-threejs-ts/index.html))
 
 ```bash
 npm i -g gh-pages
@@ -42,4 +42,19 @@ or
 npm run deploy-ghp
 ```
 
-### [Link](https://frizio.github.io/demo-threejs-ts/index.html)
+
+## Server-side functionality with Node.js and Express
+
+```bash
+npm i express
+npm i -D @types/node @types/express
+```
+
+```bash
+npm run build-server
+npm start
+```
+
+## Socket.IO with Node.js, Express and Webpack
+
+TODO
